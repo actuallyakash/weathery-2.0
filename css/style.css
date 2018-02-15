@@ -1,0 +1,188 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
+@import url(https://fonts.googleapis.com/css?family=Dosis);
+
+body {
+	background: linear-gradient(90deg, #754d8b 0%, #4e5992 100%);
+	font-size: 18px;
+}
+
+h1, h2, h3, h4, h5 {
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+}
+
+
+.widget {
+	height: 300px;
+	width: 450px;
+	position: absolute;
+    left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.weatherIcon{
+	background-color: #f0f8fa;
+	height: 70%;
+	width: 100%;
+	position: absolute;
+    left: 0;
+	top: 0;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.weatherData {
+	background-color: #2e3336;
+	height: 30%;
+	width: 100%;
+	position: absolute;
+    left: 0;
+	bottom: 0;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+h1 {
+	color: #c5cdcf;
+	font-family: 'Open Sans';
+    font-weight: 200;
+	font-size: 2.9375em;
+	line-height: 2.9375em;
+	position: absolute;
+	left: 2%;
+	top: 50%;
+	transform: translate(0, -50%);
+}
+
+h2 {
+	color: #8f9b9d;
+	font-family: 'Open Sans';
+  font-weight: 200;
+	font-size: 1.1875em;
+	line-height: 1.1875em;
+	position: absolute;
+	top: 24%;
+	left: 40%;
+}
+
+h3 {
+	color: #c5cdcf;
+	font-family: 'Open Sans';
+    font-weight: 400;
+	font-size: 0.8125em;
+	line-height: 0.8125em;
+	position: absolute;
+	bottom: 25%;
+	left: 40%;
+}
+
+h4 {
+	color: #fff;
+	font-family: 'Open Sans';
+  font-weight: 700;
+	text-transform: uppercase;
+	font-size: 0.6875em;
+	line-height: 0.6875em;
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%, 0);
+}
+
+h5 {
+	color: #fff;
+	font-family: 'Open Sans';
+  font-weight: 500;
+	font-size: 1.8125em;
+	line-height: 28px;
+	position: absolute;
+	bottom: 24%;
+	left: 50%;
+	transform: translate(-50%, 0);
+}
+
+.date {
+	background-color: #4dbde2;
+	height: 30%;
+	width: 22%;
+	position: absolute;
+    right: 0;
+	bottom: 0;
+	border-bottom-right-radius: 10px;
+}
+
+/* my code */
+
+.made
+{
+	font-size:44px;
+	font-family:Agency FB;
+}
+.made a
+{	
+	text-decoration:none;
+	font-weight:bold;
+	font-family:Chiller;
+}
+
+.apppic
+{
+	width:100px;
+	height:90px;
+	position:absolute;
+	top:20px;
+	left:56%;
+}
+.appname
+{
+	font-size:33px;
+	position:absolute;
+	top:45px;
+	left:44%;
+	font-family:Viner Hand ITC;
+	color:lightgrey;
+}
+
+.tagline
+{
+	position:absolute;
+	top:75px;
+	left:43%;
+	text-align:center;
+	font-family:Bradley Hand ITC;
+	font-size:30px;
+}
+
+.cf
+{
+	opacity:0.5;
+	position:absolute;
+	left:25%;
+	top:18px;
+	height: 55px; 
+	width: 55px;
+}
+.cf:hover
+{
+	opacity:1.0;
+}
+#image
+{
+	height:120px;
+	width:120px;
+	position:absolute;
+	top:55px;
+	left:35%;
+}
+.cred {
+  position: fixed;
+  bottom: 0%;
+  right: 2%;
+}
+.cred a {
+  text-decoration: none;
+  color: #E4D6A7;
+  font-size: 10px;
+}
